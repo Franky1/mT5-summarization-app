@@ -1,5 +1,5 @@
 """
-Python app that 
+Python app to demo mT5/XLSum.
 """
 import json
 

@@ -9,7 +9,7 @@ class mT5:
     
     @staticmethod
     def whitespace_handler(k):
-        return re.sub("\s+", " ", re.sub("\n+", " ", k.strip())
+        return re.sub("\s+", " ", re.sub("\n+", " ", k.strip()))
 
     def run(self, text):
         input_ids = self.tokenizer([self.whitespace_handler(text)], return_tensors="pt", padding="max_length", truncation=True, max_length=512)["input_ids"]

@@ -1,4 +1,4 @@
-# mT5-summarization-app
+# mT5 Summarization App
 Streamlit app for summarizing news articles with mT5 &amp; XLSum.
 
 ![Screenshot of App](screenshot_main.PNG)

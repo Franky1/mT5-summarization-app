@@ -1,7 +1,7 @@
 # mT5 Summarization App
 Streamlit app for summarizing news articles with mT5 &amp; XLSum.
 
-![Screenshot of App](screenshot_main.PNG)
+![Screenshot of App](img/screenshot_main.PNG)
 
 ## To Create The Environment
 ```bash

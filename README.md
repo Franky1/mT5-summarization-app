@@ -5,7 +5,7 @@ Streamlit app for summarizing news articles with mT5 &amp; XLSum.
 
 ## To Create The Environment
 ```bash
-conda env create -n ENVNAME -f requirements.txt
+conda env create -n ENVNAME -f summarizeapp.yml
 ```
 
 ## To Run The App

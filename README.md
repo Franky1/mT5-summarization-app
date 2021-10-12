@@ -1,5 +1,5 @@
 # mT5 Summarization App
-Streamlit app for summarizing news articles with mT5 &amp; XLSum.
+Streamlit app for summarizing multi-lingual news articles with mT5 &amp; XLSum.
 
 ![Screenshot of App](img/screenshot_main.PNG)
 

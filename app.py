@@ -54,8 +54,8 @@ with st.expander("About the Model"):
         """This model is [mT5](https://arxiv.org/abs/2010.11934), trained on the multilingual dataset [XLSum](https://aclanthology.org/2021.findings-acl.413/) by the [BUET CSE](https://cse.buet.ac.bd/research/index.php) NLP Group. The model can be found on the [:hugging_face: model repository](https://huggingface.co/csebuetnlp/mT5_multilingual_XLSum). It was intended to summarize news articles, research article summarization is out of scope."""
     )
     st.markdown("The following languages were used to train the mT5 Model:")
-    st.dataframe(
-        pd.DataFrame(data=XLSUM_LANGS, columns=["Language", "Number of XLSum Articles"])
+    st.table(
+        pd.DataFrame(data=XLSUM_LANGS, columns=["Language", "Number of XLSum Articles"]),
     )
 
 # interactivity -----------------

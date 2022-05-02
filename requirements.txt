@@ -1,1 +1,1 @@
-transformers[torch]
+transformers[sentencepiece,torch]

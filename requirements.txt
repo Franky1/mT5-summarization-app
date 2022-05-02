@@ -1,2 +1,1 @@
-sacremoses==0.0.49
-transformers[torch,sentencepiece]
+transformers[torch]

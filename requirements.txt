@@ -1,1 +1,1 @@
-transformers[tf-cpu,sentencepiece]
+transformers[torch,sentencepiece]
